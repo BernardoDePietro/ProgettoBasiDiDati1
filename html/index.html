@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <title>LOGIN</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css?ts=<?=time()?>&quot">
+    </head>
+    <body>
+        <div id="logo-div">
+            <center>
+            <img id="logo" src="img/Unime.png" alt="Logo Unime" witdh="100" height="100">
+            <h2 id="logo-descr">Universita' degli Studi di Messina</h2>
+            </center>
+        </div>
+        <div id="container-login">
+            <h3>Login alla piattaforma</h3>
+            <div id="container-form">
+                <form id="form" method="post" action="autenticazione.php">
+                    <label class="form-label" for="email">Email</label><br>    
+                    <input class="form-input" type="text" name="email"><br>
+                    <label class="form-label" for="pass">Password</label><br>
+                    <input class="form-input" type="password" name="pass"><br>
+                    <input id="form-button" name="login" type="submit" value="Login"> 
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

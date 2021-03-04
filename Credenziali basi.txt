@@ -1,0 +1,5 @@
+Direttore (AMMINISTRATORE) -> admin@unime.it "admin"
+Docente -> frossi@unime.it "francescorossi"
+Personale -> gverdi@unime.it "giovanniverdi"
+Studente -> mneri@unime.it "marconeri"
+Fornitore -> fornitore@unime.it "fornitore"
